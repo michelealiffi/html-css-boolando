@@ -10,6 +10,7 @@ header {
 
 footer {
     background-color: black;
+    display: flex;
 }
 
 h2 {
@@ -231,18 +232,12 @@ p {
     height: auto;
 }
 
-.overlay {
+.overlay:hover {
     display: none;
     position: absolute;
     width: 100%;
     margin-top: 50px;
     height: auto;
-    opacity: 0;
-    transition: .5s ease;
-}
-
-.container .overlay {
-    opacity: 1;
 }
 
 .image-3 {
@@ -317,4 +312,77 @@ p {
 
 .price {
     text-decoration: line-through
+}
+
+.container-2 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.h2-footer {
+    color: white;
+    margin-left: 450px;
+    padding-top: 20px;
+}
+
+.p-container {
+    display: flex;
+    margin-left: 450px;
+}
+
+.p-footer {
+    color: white;
+    margin-right: 10px;
+
+}
+
+.h2-social {
+    color: white;
+    font-size: 13px;
+    padding-top: 20px;
+    margin-left: 600px;
+    padding-bottom: 10px;
+}
+
+.social-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.twitter {
+    width: 20px;
+    height: 20px;
+    margin-left: 600px;
+}
+
+.facebook {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.instagram {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.pinterest {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
+}
+
+.youtube {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: white;
 }
