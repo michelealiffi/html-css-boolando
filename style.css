@@ -3,3 +3,70 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: orange;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-choice {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.choice {
+    margin-left: 10px;   
+}
+
+.logo {
+    background-image: url(img/boolean-logo.png);
+    background-repeat: no-repeat;
+    background-size: 80px 25px;
+    padding-top: 25px;
+    padding-left: 80px;
+    margin-left: 500px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.header-icons {
+    margin-left: 500px;
+    display: flex;
+}
+
+.icon-man {
+    background-image: url(img/person-icon-2048x2048-wiaps1jt.png);
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-top: 18px;
+    filter: invert(100%);
+}
+
+.icon-heart {
+    background-image: url(img/Media-Icon-25-512.webp);
+    background-repeat: no-repeat;
+    background-size: 25px 30px;
+    padding-left: 25px;
+    margin-top: 10px;
+    filter: invert(100%);
+}
+
+.icon-shop {
+    background-image: url(img/shopping-32.png);
+    background-repeat: no-repeat;
+    background-size: 15px 14px;
+    padding-left: 50px;
+    margin-top: 17px;
+    filter: invert(100%);
+}
