@@ -107,7 +107,7 @@ p {
     position: absolute;
     top: 120px;
     left: 720px;
-    z-index: 0;
+    z-index: 1;
     font-size: 35px;
 }
 
@@ -116,7 +116,7 @@ p {
     color: red;
     top: 120px;
     left: 720px;
-    z-index: 0;
+    z-index: 1;
 }
 
 .heart2 {
@@ -128,7 +128,7 @@ p {
     position: absolute;
     top: 120px;
     left: 1050px;
-    z-index: 1;
+    z-index: 2;
     font-size: 35px;
 }
 
@@ -137,7 +137,7 @@ p {
     color: red;
     top: 120px;
     left: 1050px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .heart3 {
@@ -149,7 +149,7 @@ p {
     position: absolute;
     top: 120px;
     left: 1391px;
-    z-index: 2;
+    z-index: 3;
     font-size: 35px;
 }
 
@@ -158,7 +158,7 @@ p {
     color: red;
     top: 120px;
     left: 1391px;
-    z-index: 2;
+    z-index: 3;
 }
 
 .heart4 {
@@ -170,7 +170,7 @@ p {
     position: absolute;
     top: 685px;
     left: 724px;
-    z-index: 3;
+    z-index: 4;
     font-size: 35px;
 }
 
@@ -179,7 +179,7 @@ p {
     color: red;
     top: 685px;
     left: 724px;
-    z-index: 3;
+    z-index: 4;
 }
 
 .heart5 {
@@ -191,7 +191,7 @@ p {
     position: absolute;
     top: 685px;
     left: 1057px;
-    z-index: 4;
+    z-index: 5;
     font-size: 35px;
 }
 
@@ -200,7 +200,7 @@ p {
     color: red;
     top: 685px;
     left: 1057px;
-    z-index: 4;
+    z-index: 5;
 }
 
 .heart6 {
@@ -212,7 +212,7 @@ p {
     position: absolute;
     top: 685px;
     left: 1390px;
-    z-index: 5;
+    z-index: 6;
     font-size: 35px;
 }
 
@@ -221,7 +221,7 @@ p {
     color: red;
     top: 685px;
     left: 1390px;
-    z-index: 5;
+    z-index: 6;
 }
 
 .image {
