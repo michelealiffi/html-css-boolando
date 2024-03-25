@@ -115,7 +115,112 @@ p {
     color: red;
     top: 120px;
     left: 720px;
+    z-index: 0;
+}
+
+.heart2 {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 120px;
+    left: 1050px;
     z-index: 1;
+    font-size: 35px;
+}
+
+.heart2-2:hover {
+    position: absolute;
+    color: red;
+    top: 120px;
+    left: 1050px;
+    z-index: 1;
+}
+
+.heart3 {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 120px;
+    left: 1391px;
+    z-index: 2;
+    font-size: 35px;
+}
+
+.heart3-2:hover {
+    position: absolute;
+    color: red;
+    top: 120px;
+    left: 1391px;
+    z-index: 2;
+}
+
+.heart4 {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 685px;
+    left: 724px;
+    z-index: 3;
+    font-size: 35px;
+}
+
+.heart4-2:hover {
+    position: absolute;
+    color: red;
+    top: 685px;
+    left: 724px;
+    z-index: 3;
+}
+
+.heart5 {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 685px;
+    left: 1057px;
+    z-index: 4;
+    font-size: 35px;
+}
+
+.heart5-2:hover {
+    position: absolute;
+    color: red;
+    top: 685px;
+    left: 1057px;
+    z-index: 4;
+}
+
+.heart6 {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 685px;
+    left: 1390px;
+    z-index: 5;
+    font-size: 35px;
+}
+
+.heart6-2:hover {
+    position: absolute;
+    color: red;
+    top: 685px;
+    left: 1390px;
+    z-index: 5;
 }
 
 .image {
@@ -127,18 +232,16 @@ p {
 }
 
 .overlay {
-    display: inline-block;
-    position: relative;
+    display: none;
+    position: absolute;
     width: 100%;
     margin-top: 50px;
     height: auto;
     opacity: 0;
     transition: .5s ease;
-    background-image: url(img/1b.webp);
-    background-repeat: no-repeat;
 }
 
-.container:hover .overlay {
+.container .overlay {
     opacity: 1;
 }
 
@@ -167,6 +270,39 @@ p {
     padding-right: 10px;
     top: 470px;
     right: 1290px;
+}
+
+.red-2 {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 1050px;
+    left: 50;
+}
+
+.green-2 {
+    background-color: green;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 1050px;
+    right: 1290px;
+}
+
+.green-3 {
+    background-color: green;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 1050px;
+    right: 685px;
 }
 
 .price-item {
