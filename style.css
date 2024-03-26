@@ -232,12 +232,20 @@ p {
     height: auto;
 }
 
-.overlay:hover {
+.hover-image {
     display: none;
-    position: absolute;
+    position: relative;
     width: 100%;
     margin-top: 50px;
     height: auto;
+}
+
+.card-image:hover .image {
+    display: none;
+}
+
+.card-image:hover .hover-image {
+    display: inline-block;
 }
 
 .image-3 {
